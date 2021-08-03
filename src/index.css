@@ -1,0 +1,19 @@
+@font-face{
+  font-family: 'Barlow';
+  src: url('./fonts/Barlow-Light.ttf');
+}
+
+*{
+  font-family: 'Barlow',monospace;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: aliceblue;
+  background: linear-gradient(to right, rgb(252, 53, 76), rgb(10, 191, 188));
+}
